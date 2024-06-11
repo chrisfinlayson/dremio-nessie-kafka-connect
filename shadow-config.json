@@ -15,10 +15,6 @@
                 "orderDate": {
                     "_gen": "now"
                 },
-                "status": {
-                    "_gen": "oneOf",
-                    "choices": ["OrderPlaced", "OrderUpdated", "OrderCancelled"]
-                },
                 "customerID": {
                     "_gen": "lookup",
                     "topic": "CustomerEventStream",
