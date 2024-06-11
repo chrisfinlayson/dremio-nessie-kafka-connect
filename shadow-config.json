@@ -17,7 +17,7 @@
                 },
                 "status": {
                     "_gen": "oneOf",
-                    "choices": ["OrderPlaced", "OrderUpdated", "OrderCancelled","NULL","NULL","NULL"]
+                    "choices": ["OrderPlaced", "OrderUpdated", "OrderCancelled"]
                 },
                 "customerID": {
                     "_gen": "lookup",
